@@ -1,0 +1,74 @@
+body{
+    padding: 50px;
+    background-color: #66ffcc;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapedInput input{
+    width: 500px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapedInput ul {
+    padding: 0;
+}
+.wrapedInput ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 490px;
+    height: 10px;
+    list-style-type: none;
+    background-color: cornflowerblue;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.wrapedInput ul li:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.fa-times{
+    color:red;
+    opacity: 0.3;
+}
+.fa-times:hover{
+    color:red;
+    opacity: 1;
+}
+.taskCompleted{
+    text-decoration: line-through;
+}
+.liOpacity{
+    opacity: 0.5;
+}
+.wrap_Btn{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap_Btn h4{
+    font-family: Snell Roundhand, cursive;
+    color: cornflowerblue;
+}
+.wrap_Btn button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    color: darkslategrey;
+}
+.wrap_Btn button:hover {
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    opacity: 0.7;
+}
